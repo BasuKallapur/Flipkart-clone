@@ -69,6 +69,7 @@ nav ul li a:hover {
 .search button {
     font-weight: 900;
     font-family: 'Lato', sans-serif;
+    border: 2px solid #1f62ce;
 }
 
 .slider {
@@ -93,7 +94,8 @@ nav ul li a:hover {
 .cards {
     display: flex;
     /* justify-content: center; */
-    overflow: hidden;
+    overflow-y: hidden; 
+    overflow-x: auto; 
 }
 .container {
     min-height: calc(100vh - 58px - 12vh);
